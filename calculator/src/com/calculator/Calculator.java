@@ -5,7 +5,7 @@ import java.util.ArrayList;
 public class Calculator {
 	
 //	Attributes
-	private ArrayList<Double> save;
+	private ArrayList<Double> save = new ArrayList<Double>();
 	private String Operation;
 	private double OperandOne;
 	private double OperandTwo;
