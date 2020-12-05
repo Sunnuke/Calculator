@@ -3,11 +3,14 @@ package com.calculator;
 import java.util.ArrayList;
 
 public class Calculator {
+	
+//	Attributes
 	private ArrayList<Double> save;
 	private String Operation;
 	private double OperandOne;
 	private double OperandTwo;
 	
+//	Methods
 	public void setOperation(String op) {
 		Operation = op;
 	}
